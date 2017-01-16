@@ -1,10 +1,9 @@
 ## Welcome to LemoNade
 
-This is a little blog of lemon. Sharing my study notes and writing some reviews. Nothing but for my self.
+This is a little blog of lemon. Sharing my study notes and writing some reviews. Nothing but for myself.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### This is us
+I am watching this is us this days. Nice one.
 
 ```markdown
 Syntax highlighted code block
