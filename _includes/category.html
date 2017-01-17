@@ -21,6 +21,16 @@
       </ul>
     </header>
 
+<!-- add -->
+<div>
+  <header>
+    <ul class="tabs">
+      <li class="tabs__item">{{ page.title }}</li>
+      <li class="tabs__item">Categories</li>
+    </ul>
+  </header>
+<!--add  -->
+
     <div class="tab">
       <ul itemscope itemtype="http://schema.org/Blog">
         {% for post in site.categories[page.title] %}
