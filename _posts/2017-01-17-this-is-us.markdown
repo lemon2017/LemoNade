@@ -1,0 +1,14 @@
+---
+layout: post
+title: "This is us"
+date: 2017-01-17
+categories:
+  - Movie
+description:
+image: http://p1.bqimg.com/567571/09f8ea42c5a1361d.jpg
+image-sm: http://p1.bqimg.com/567571/09f8ea42c5a1361d.jpg
+---
+无意中开始看这部美剧。是我喜欢的类型。
+
+生而为人是一件很累，也很有意思的事情。为人父母，有Jack和Rebecca，也有William。没有对错，只是境遇和选择。
+Kevin，Kate和Randall，一起长大，却经历着完全不同的生活。36岁的选择，也许是个突破口。好在你们很很乐观。感谢父母。
