@@ -1,35 +1,59 @@
-## Welcome to LemoNade
+## Voyager
 
-This is a little blog of lemon. Sharing my study notes and writing some reviews. Nothing but for myself.
+Just another jekyll theme. Demo: <http://redvi.github.io/voyager>
 
-### This is us
-I am watching this is us this days. Nice one.
+### Feathures:
 
-```markdown
-Syntax highlighted code block
+All HTML files are compressed (see `_layouts/compress.html`).
 
-# Header 1
-## Header 2
-### Header 3
+**Post**
 
-- Bulleted
-- List
+All post settings can be changed. Example:
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```
+---
+layout: post
+bg: '2016/background.jpg'
+title: "Post Heading"
+crawlertitle: "page title"
+summary: "post description"
+date: 2016-06-29
+tags : ['front-end']
+slug: post-url
+author: "Author"
+categories: posts
+---
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+`bg` is a path to background of your article. By default backgrounds are placed in the `assets/images` directory.
 
-### Jekyll Themes
+**Page**
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/lemon2017/lemonade/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+If page contains `active` tag, it will be show on site menu.
 
-### Support or Contact
+```
+---
+layout: page
+title: "About"
+permalink: /about/
+active: about
+---
+```
 
-Want to contact with me?
-e-mail or wechat
+**Archive**
+
+Archive page is sorting posts by tags. No more than one tag in one post.
+
+Good:
+
+```
+tags : ['front-end']
+```
+
+Bad:
+
+```
+tags : ['front-end', 'jekyll']
+```
+
+Don't forget to change `_config.yml`.
